@@ -6,7 +6,7 @@ interface ToolbarProps {
 
 const Toolbar: React.FC<ToolbarProps> = ({ page }) => {
     return (
-        <div className="mt-8 flex h-24 w-full flex-wrap items-center justify-between bg-blue-950 px-10">
+        <div className="mt-8 flex h-24 w-full flex-wrap items-center justify-center xl:justify-between bg-blue-950 px-10">
             <div className="flex h-auto w-auto flex-row items-center justify-center"> 
                 <p className="text-3xl text-white pl-5">Mircea's </p> 
                 <span className="text-red-600 text-3xl font-bold p-1">Portfolio</span>
@@ -68,7 +68,7 @@ const Toolbar: React.FC<ToolbarProps> = ({ page }) => {
                     </>
                 )}
             </div>
-            <div className="absolute flex h-auto w-56 flex-row items-center justify-center text-md xl:text-2xl xl:relative"></div>
+            <div className="absolute xl:flex h-auto w-56 flex-row items-center justify-center text-md xl:text-2xl hidden xl:relative"></div>
         </div>
     );
 }
