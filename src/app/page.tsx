@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-start justify-between">
             <Toolbar page="home" />
-            <div className="flex h-auto w-screen flex-col items-center justify-center">
+            <div className="flex h-auto w-screen flex-col items-center justify-center bg-gray-200">
                 <img
                     src="/programing.png"
                     alt="programing"

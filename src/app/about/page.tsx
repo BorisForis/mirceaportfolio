@@ -18,7 +18,7 @@ export default function Home() {
         'typescript.svg',
     ];
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between">
+        <main className="flex min-h-screen flex-col items-center justify-between bg-gray-200">
             <Toolbar page="about" />
             <h1 className="h-3/4 text-6xl font-bold text-black">About</h1>
             <div className="flex size-auto flex-col items-center justify-start lg:flex-row">
