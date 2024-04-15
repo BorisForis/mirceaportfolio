@@ -29,7 +29,7 @@ export default function Home() {
                             Myself
                         </span>
                     </h2>
-                    <p className=" p-5 text-base text-black lg:p-12 lg:text-2xl">
+                    <p className=" p-5 text-center text-base text-black lg:p-12 lg:text-2xl">
                         As a dedicated professional, I prioritize continuous
                         learning and development. My experience as a Game Tester
                         has honed essential soft skills for software
@@ -51,7 +51,7 @@ export default function Home() {
                             Hobbies
                         </span>
                     </h2>
-                    <p className=" p-5 text-base text-black lg:p-12 lg:text-2xl">
+                    <p className=" p-5 text-center text-base text-black lg:p-12 lg:text-2xl">
                         In addition to my professional pursuits, I cultivate
                         several hobbies that contribute to my skill set and
                         personal growth. Foremost among these is my passion for
@@ -77,7 +77,7 @@ export default function Home() {
                         Technologies
                     </span>
                 </h2>
-                <p className=" p-5 text-base text-black lg:p-5 lg:text-2xl">
+                <p className=" p-5 text-center text-base text-black lg:p-5 lg:text-2xl">
                     As a developer, I possess proficiency in both Backend and
                     Frontend technologies, enabling me to craft comprehensive,
                     end-to-end applications. My expertise encompasses a range of

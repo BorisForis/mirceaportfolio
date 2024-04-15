@@ -29,7 +29,7 @@ export default function FooterComp() {
                     />
                 </a>
             </div>
-            <div className="flex h-auto w-56 flex-row items-center justify-center text-3xl"></div>
+            <div className="flex h-auto w-40 flex-row items-center justify-center text-3xl"></div>
         </div>
     );
 }

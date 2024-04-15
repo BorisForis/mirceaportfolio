@@ -8,12 +8,15 @@ interface ToolbarProps {
 const Toolbar: React.FC<ToolbarProps> = ({ page }) => {
     return (
         <div className="flex h-24 w-full flex-wrap items-center justify-center bg-blue-950 px-10 lg:justify-between">
-            <div className="flex size-auto flex-row items-center justify-center">
+            <Link
+                href="/"
+                className="flex size-auto flex-row items-center justify-center"
+            >
                 <p className="pl-5 text-3xl text-white">Mircea&apos;s </p>
                 <span className="p-1 text-3xl font-bold text-red-600">
                     Portfolio
                 </span>
-            </div>
+            </Link>
             <div className="flex size-auto flex-row items-center justify-center">
                 {page === 'home' ? (
                     <>
@@ -89,7 +92,7 @@ const Toolbar: React.FC<ToolbarProps> = ({ page }) => {
                     </>
                 )}
             </div>
-            <div className="absolute hidden h-auto w-56 flex-row items-center justify-center text-xl lg:relative lg:flex lg:text-2xl"></div>
+            <div className="absolute hidden h-auto w-60 flex-row items-center justify-center text-xl lg:relative lg:flex lg:text-2xl"></div>
         </div>
     );
 };
