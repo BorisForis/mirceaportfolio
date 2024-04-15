@@ -68,7 +68,7 @@ const Toolbar: React.FC<ToolbarProps> = ({ page }) => {
                     </>
                 )}
             </div>
-            <div className="flex h-auto w-80 flex-row items-center justify-center text-3xl"></div>
+            <div className="flex h-auto w-56 flex-row items-center justify-center text-3xl"></div>
         </div>
     );
 }
