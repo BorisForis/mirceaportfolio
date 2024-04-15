@@ -81,15 +81,6 @@ export default function Home() {
                         {' '}
                         Live Demo{' '}
                     </a>
-                    <a
-                        href="https://github.com/happy-qa/frontend"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="m-8 cursor-pointer rounded-lg bg-red-600 px-8 py-4 text-center font-bold transition hover:shadow-button2 active:scale-90 active:shadow-button1"
-                    >
-                        {' '}
-                        Github repo{' '}
-                    </a>
                 </div>
             </div>
             <FooterComp />
