@@ -16,17 +16,17 @@ const Toolbar: React.FC<ToolbarProps> = ({ page }) => {
                     <>
                         <Link
                             href={'/'}
-                            className="flex h-8 flex-row items-center justify-center text-md xl:text-4xl text-red-600 font-semibold p-8 hover:text-red-600" draggable="false">
+                            className="flex h-8 flex-row items-center justify-center text-md xl:text-2xl text-red-600 font-semibold p-8 hover:text-red-600" draggable="false">
                                 Home
                         </Link>
                         <Link
                             href={'/about'}
-                            className="flex h-8 flex-row items-center justify-center text-md xl:text-4xl text-white font-semibold p-8 hover:text-red-600" draggable="false">
+                            className="flex h-8 flex-row items-center justify-center text-md xl:text-2xl text-white font-semibold p-8 hover:text-red-600" draggable="false">
                                 About
                         </Link>
                         <Link
                             href={'/projects'}
-                            className="flex h-8 flex-row items-center justify-center text-md xl:text-4xl text-white font-semibold p-8 hover:text-red-600" draggable="false">
+                            className="flex h-8 flex-row items-center justify-center text-md xl:text-2xl text-white font-semibold p-8 hover:text-red-600" draggable="false">
                                 Projects
                         </Link>
                     </>
@@ -34,17 +34,17 @@ const Toolbar: React.FC<ToolbarProps> = ({ page }) => {
                     <>
                         <Link
                             href={'/'}
-                            className="flex h-8 flex-row items-center justify-center text-md xl:text-4xl text-white font-semibold p-8 hover:text-red-600" draggable="false">
+                            className="flex h-8 flex-row items-center justify-center text-md xl:text-2xl text-white font-semibold p-8 hover:text-red-600" draggable="false">
                                 Home
                         </Link>
                         <Link
                             href={'/about'}
-                            className="flex h-8 flex-row items-center justify-center text-md xl:text-4xl text-red-600 font-semibold p-8 hover:text-red-600" draggable="false">
+                            className="flex h-8 flex-row items-center justify-center text-md xl:text-2xl text-red-600 font-semibold p-8 hover:text-red-600" draggable="false">
                                 About
                         </Link>
                         <Link
                             href={'/projects'}
-                            className="flex h-8 flex-row items-center justify-center text-md xl:text-4xl text-white font-semibold p-8 hover:text-red-600" draggable="false">
+                            className="flex h-8 flex-row items-center justify-center text-md xl:text-2xl text-white font-semibold p-8 hover:text-red-600" draggable="false">
                                 Projects
                         </Link>
                     </>
@@ -52,23 +52,23 @@ const Toolbar: React.FC<ToolbarProps> = ({ page }) => {
                     <>
                         <Link
                             href={'/'}
-                            className="flex h-8 flex-row items-center justify-center text-md xl:text-4xl text-white font-semibold p-8 hover:text-red-600" draggable="false">
+                            className="flex h-8 flex-row items-center justify-center text-md xl:text-2xl text-white font-semibold p-8 hover:text-red-600" draggable="false">
                                 Home
                         </Link>
                         <Link
                             href={'/about'}
-                            className="flex h-8 flex-row items-center justify-center text-md xl:text-4xl text-white font-semibold p-8 hover:text-red-600" draggable="false">
+                            className="flex h-8 flex-row items-center justify-center text-md xl:text-2xl text-white font-semibold p-8 hover:text-red-600" draggable="false">
                                 About
                         </Link>
                         <Link
                             href={'/projects'}
-                            className="flex h-8 flex-row items-center justify-center text-md xl:text-4xl text-red-600 font-semibold p-8 hover:text-red-600" draggable="false">
+                            className="flex h-8 flex-row items-center justify-center text-md xl:text-2xl text-red-600 font-semibold p-8 hover:text-red-600" draggable="false">
                                 Projects
                         </Link>
                     </>
                 )}
             </div>
-            <div className="absolute flex h-auto w-56 flex-row items-center justify-center text-md xl:text-4xl xl:relative"></div>
+            <div className="absolute flex h-auto w-56 flex-row items-center justify-center text-md xl:text-2xl xl:relative"></div>
         </div>
     );
 }
