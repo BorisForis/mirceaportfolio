@@ -7,7 +7,7 @@ interface ToolbarProps {
 
 const Toolbar: React.FC<ToolbarProps> = ({ page }) => {
     return (
-        <div className="mt-8 flex h-24 w-full flex-wrap items-center justify-center bg-blue-950 px-10 lg:justify-between">
+        <div className="flex h-24 w-full flex-wrap items-center justify-center bg-blue-950 px-10 lg:justify-between">
             <div className="flex size-auto flex-row items-center justify-center">
                 <p className="pl-5 text-3xl text-white">Mircea&apos;s </p>
                 <span className="p-1 text-3xl font-bold text-red-600">

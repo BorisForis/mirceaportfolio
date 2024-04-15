@@ -1,4 +1,4 @@
-import Image from 'next/image';
+/* eslint-disable @next/next/no-img-element */
 import Footer from './FooterComp';
 import Toolbar from './Toolbar';
 
@@ -7,7 +7,7 @@ export default function Home() {
         <main className="flex min-h-screen flex-col items-start justify-between">
             <Toolbar page="home" />
             <div className="flex h-auto w-screen flex-col items-center justify-center">
-                <Image
+                <img
                     src="/programing.png"
                     alt="programing"
                     className="absolute z-0 h-5/6 w-screen px-12 py-5 opacity-70 blur-md lg:h-3/4"
