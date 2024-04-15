@@ -13,13 +13,13 @@ export default function Home() {
                     className="absolute z-0 h-5/6 w-screen px-12 py-5 opacity-70 blur-md lg:h-3/4"
                 />
                 <div className="flex size-4/6 flex-col items-center justify-center">
-                    <h1 className="z-10 flex flex-row pt-10 text-2xl text-white lg:text-4xl">
+                    <h1 className="z-10 flex flex-row pt-10 text-xl text-white lg:text-4xl">
                         Welcome to Mircea&apos;s
                     </h1>
-                    <span className="z-10 p-1 text-2xl font-bold text-red-600 lg:text-4xl">
+                    <span className="z-10 p-1 text-xl font-bold text-red-600 lg:text-4xl">
                         Portfolio
                     </span>
-                    <p className="z-10 p-5 text-xl text-gray-100 lg:p-12 lg:text-2xl">
+                    <p className="z-10 p-5 text-base text-gray-100 lg:p-12 lg:text-2xl">
                         {' '}
                         Hello, I am Mircea, a full-stack developer driven by a
                         fervent passion for crafting clean, comprehensive,
@@ -28,7 +28,7 @@ export default function Home() {
                         am committed to developing dynamic and holistic web
                         applications.
                     </p>
-                    <p className="z-10 p-5 text-xl text-gray-100 lg:p-12 lg:text-2xl">
+                    <p className="z-10 p-5 text-base text-gray-100 lg:p-12 lg:text-2xl">
                         My unwavering dedication to producing clean and
                         maintainable code, meticulously centered around
                         elevating the user experience, positions me to deliver
