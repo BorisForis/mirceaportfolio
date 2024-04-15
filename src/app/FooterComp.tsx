@@ -7,7 +7,7 @@ export default function FooterComp() {
             <h6 className="pl-4 text-white">©Copyright 2024</h6>
             <div className="flex flex-wrap">
                 <a draggable="false" target="_blank" href="https://github.com/BorisForis">
-                    <FontAwesomeIcon icon={faGithub} className="h-11 w-11 m-2 hover:scale-90"/>
+                    <FontAwesomeIcon icon={faGithub} className="h-9 w-9 m-2 hover:scale-90"/>
                 </a>
                 <a draggable="false" target="_blank" href="https://www.linkedin.com/in/duca-mircea-97a951192/">
                     <FontAwesomeIcon icon={faLinkedin} className="h-9 w-9 m-2 hover:scale-90"/>
