@@ -14,14 +14,16 @@ module.exports = {
         'plugin:prettier/recommended',
         'plugin:tailwindcss/recommended',
     ],
-    overrides: [],
-    parser: '@typescript-eslint/parser',
-    parserOptions: {
-        ecmaVersion: 'latest',
-        sourceType: 'module',
-        project: './tsconfig.json',
-    },
-    plugins: ['react', '@typescript-eslint', 'prettier'],
-    exclude: ['next.config.mjs'],
-  };
-  
+    overrides: [
+        {
+            files: ['**/*.ts', '**/*.tsx'],
+            parser: '@typescript-eslint/parser',
+            parserOptions: {
+                ecmaVersion: 'latest',
+                sourceType: 'module',
+                project: './tsconfig.json',
+            },
+            plugins: ['react', '@typescript-eslint', 'prettier'],
+        },
+    ],
+};
