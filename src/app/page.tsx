@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-start justify-between">
       <Toolbar page="home"/>
       <div className="flex flex-col items-center justify-center w-screen h-96">
-        <img src="/programing2.webp" alt="programing" className="absolute z-0 w-screen h-3/4 py-5 px-12 opacity-70 blur-md"/>
+        <img src="/programing.png" alt="programing" className="absolute z-0 w-screen h-3/4 py-5 px-12 opacity-70 blur-md"/>
         <div className="absolute flex flex-col justify-center items-center w-4/6 h-4/6"> 
           <h1 className="flex flex-row z-10 text-2xl text-white pt-10 xl:text-4xl">Welcome to Mircea's
               <span className="text-red-600 text-2xl font-bold p-1 xl:text-4xl">Portfolio</span> 
