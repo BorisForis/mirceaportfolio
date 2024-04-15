@@ -10,7 +10,7 @@ export default function FooterComp() {
                     <FontAwesomeIcon icon={faGithub} className="h-11 w-11 m-2 hover:scale-90"/>
                 </a>
                 <a draggable="false" target="_blank" href="https://www.linkedin.com/in/duca-mircea-97a951192/">
-                    <FontAwesomeIcon icon={faLinkedin} className="h-11 w-11 m-2 hover:scale-90"/>
+                    <FontAwesomeIcon icon={faLinkedin} className="h-9 w-9 m-2 hover:scale-90"/>
                 </a>
             </div>
             <div className="flex h-auto w-56 flex-row items-center justify-center text-3xl"></div>
